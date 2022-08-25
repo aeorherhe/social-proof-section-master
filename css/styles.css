@@ -1,5 +1,5 @@
 :root {
-    
+
 }
 
 
@@ -10,16 +10,24 @@ html {
 body {
   font-family: League Spartan, Arial, Helvetica, sans-serif;
   font-size: 15px;
-  margin: 50px;
+  display: flex;
+  background: url(../images/bg-pattern-top-mobile.svg);
+  /* align-items: center; */
+  /* align-content: center; */
+  /* width: 100vw; */
+  justify-content: center;
+  /* justify-items: center; */
+  /* margin: 50px; */
 }
 
 .container {
   display: flex;
   flex-direction: column;
   width: 330px;
-  height: 100vh;
-  border: 2px solid rgb(209, 89, 89);
+  /* height: 100vh; */
+  /* border: 2px solid rgb(22, 58, 217); */
   /* text-align: center; */
+  padding-bottom: 20px;
 }
 .product-review {
     /* background: limegreen; */
@@ -47,7 +55,7 @@ body {
 
 .ratings {
     background: aquamarine;
-    margin: 0;
+    margin-bottom: 20px;
     text-align: center;
     padding: 15px;
     padding-bottom: 0;
@@ -56,9 +64,13 @@ body {
 }
 
 .ratings p {
+    padding-bottom: 10px;
     margin-top: 10px;
-    color: ;
+    /* margin-bottom: 10px; */
+    color: hsl(300, 43%, 22%);
+    font-weight: 600;
 }
+
 
 
 
