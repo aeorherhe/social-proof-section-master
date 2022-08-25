@@ -17,10 +17,8 @@ p {
 }
 
 .review-card-logo {
-  /* background: aquamarine; */
   display: flex;
   margin-bottom: 20px;
-  /* padding: 20px; */
 }
 
 .review-card-logo img {
