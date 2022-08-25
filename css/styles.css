@@ -1,0 +1,71 @@
+:root {
+    
+}
+
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: League Spartan, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+  height: 100vh;
+  border: 2px solid rgb(209, 89, 89);
+  /* text-align: center; */
+}
+.product-review {
+    /* background: limegreen; */
+    margin-bottom: 10px;
+}
+
+.product-review h1 {
+  padding: 30px;
+  padding-bottom: 0%;
+  /* background: lavenderblush; */
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  color: hsl(300, 43%, 22%);
+}
+
+.product-review p {
+  padding: 20px;
+  color: hsl(303, 10%, 53%);
+  /* background: lavenderblush; */
+  text-align: center;
+  margin: 0%;
+  line-height: 1.5;
+}
+
+.ratings {
+    background: aquamarine;
+    margin: 0;
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 0;
+    border-radius: 10px;
+    background-color: hsl(300, 24%, 96%);
+}
+
+.ratings p {
+    margin-top: 10px;
+    color: ;
+}
+
+
+
+Very Dark Magenta: hsl(300, 43%, 22%)
+Soft Pink: hsl(333, 80%, 67%)
+
+
+Dark Grayish Magenta: hsl(303, 10%, 53%)
+Light Grayish Magenta: hsl(300, 24%, 96%)
+White: hsl(0, 0%, 100%)
